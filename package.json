@@ -1,0 +1,24 @@
+{
+  "name": "readmeGen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chadcourtney9/README-Gen.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chadcourtney9/README-Gen/issues"
+  },
+  "homepage": "https://github.com/chadcourtney9/README-Gen#readme",
+  "dependencies": {
+    "inquirer": "^7.3.3",
+    "util": "^0.12.3"
+  }
+}
