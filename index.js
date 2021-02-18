@@ -1,5 +1,4 @@
 const fs = require("fs");
-const { get } = require("http");
 const inquirer = require("inquirer")
 const util = require("util")
 const generateMkd = require("./utils/genmkdown.js")

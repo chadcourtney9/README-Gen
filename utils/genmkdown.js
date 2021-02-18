@@ -31,6 +31,4 @@ ${answers.github}
 email: ${answers.email} `
 }
 
-
-
 module.exports = generateMkd;
