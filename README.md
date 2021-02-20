@@ -1,6 +1,10 @@
 # README-Gen
 ### ![License](https://img.shields.io/badge/License-MIT-brightgreen.svg)
+
 ### This last week i was tasked with creating a README generator. This entire script was created with node.js. It is designed to ask you a few questions i.e name of project, which license and to describe the project/installation. Once you have filled out the fields prompted to you it will generate the markdown page. 
+
+### Video Walkthrough
+[youtube](https://www.youtube.com/watch?v=EC37LQ83y6s&feature=youtu.be&ab_channel=Roama)
 
 ### Table of Contents
 - [Technology](#technology)

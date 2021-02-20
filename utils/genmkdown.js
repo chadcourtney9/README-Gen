@@ -1,4 +1,4 @@
-const generateMkd = (answers, data) => {
+const generateMkd = (answers) => {
     return `# ${answers.title}
 ![badge](https://img.shields.io/badge/license-${answers.license}-brightgreen)
 
@@ -28,7 +28,7 @@ ${answers.license}
 
 #### Contact
 ${answers.github}
-email: ${answers.email} `
+${answers.email} `
 }
 
 module.exports = generateMkd;
