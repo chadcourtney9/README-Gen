@@ -1,3 +1,4 @@
+// calls inquirer and util
 const fs = require("fs");
 const inquirer = require("inquirer")
 const util = require("util")
@@ -5,6 +6,7 @@ const generateMkd = require("./utils/genmkdown.js")
 
 const writeFileAsync = util.promisify(fs.writeFile);
 
+// generates questions to fill out the readme page
 const promptUser = () => {
     return inquirer.prompt([
         {
@@ -59,6 +61,7 @@ const promptUser = () => {
     ]);
 }
 
+// pulls from genmkdown to fill out and write the md file into the dist folder and logging successful to know the page has been completed
 async function init() {
     try {
         const answers = await promptUser();
