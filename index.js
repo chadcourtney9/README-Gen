@@ -66,7 +66,7 @@ async function init() {
     try {
         const answers = await promptUser();
         const populate = generateMkd(answers);
-        await writeFileAsync("./dist/README.md", populate);
+        await writeFileAsync("./README/README.md", populate);
         console.log("Successful!")
     } catch (err) {
         console.log(err)

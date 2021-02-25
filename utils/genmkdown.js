@@ -5,12 +5,12 @@ const generateMkd = (answers) => {
 
 
 ## Table of Contents
-- [Installation](#installation)
-- [Usage](#usages)
-- [Contributors](#contributors)
-- [Tests](#tests)
-- [License](#license)
-- [contact](#contact)
+- [Installation](#Installation)
+- [Usage](#Usages)
+- [Contributors](#Contributors)
+- [Tests](#Tests)
+- [License](#License)
+- [contact](#Contact)
 
 ## Installation
 ${answers.instructions}
